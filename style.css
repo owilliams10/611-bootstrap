@@ -1,0 +1,47 @@
+html{
+    text-align:center;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.topboxes div{
+    height:190px;
+}
+
+.box1{
+    background: red;
+    border: 2px solid black;
+}
+
+.box2{
+    background: blue;
+    border: 2px dashed yellow;
+    margin: 0px 60px;
+}
+
+.box3{
+    background: lime;
+    border: 2px solid purple;
+}
+
+.changebtn{
+    background: #c5c5c5;
+    padding: 5px 10px;
+    margin-right: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.noleftpadding{
+    padding-left:0;
+}
+
+.norightpadding{
+    padding-right:0;
+}
+
+/* .changebtn:l{
+    margin-right: 0px;
+} */
