@@ -42,6 +42,7 @@ h1{
     padding-right:0;
 }
 
-/* .changebtn:l{
-    margin-right: 0px;
-} */
+.newbox1{
+    background:yellow;
+    border: 2px dotted pink;
+}
