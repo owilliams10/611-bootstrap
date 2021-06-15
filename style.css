@@ -2,12 +2,19 @@ html{
     text-align:center;
 }
 
+.pageTitle{
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
 h1{
     text-decoration: underline;
 }
 
 .topboxes div{
-    height:190px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:130px;
 }
 
 .box1{
@@ -18,12 +25,37 @@ h1{
 .box2{
     background: blue;
     border: 2px dashed yellow;
-    margin: 0px 60px;
+    margin: 0px 25px;
 }
 
 .box3{
     background: lime;
     border: 2px solid purple;
+}
+
+span {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h3{
+    font-size: 15px;
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.hideButtonHeading {
+    margin: 20px 0px;
+    font-size: 11px;
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.changeButtons {
+    margin-top: 25px;
 }
 
 .changebtn{
@@ -32,6 +64,11 @@ h1{
     margin-right: 5px;
     width: 100%;
     display: inline-block;
+}
+
+.resetShowAllButtons {
+    margin-top: 25px ;
+    margin-bottom: 45%;
 }
 
 .noleftpadding{
@@ -45,4 +82,29 @@ h1{
 .newbox1{
     background:yellow;
     border: 2px dotted pink;
+}
+
+.newbox2{
+    background: orange;
+    border: 2px solid teal;
+}
+
+.newbox3 {
+    background: red;
+    border: 2px solid black;
+}
+
+.allBoxesChange {
+    background:#728C00;
+    border: 5px solid #F5DEB3;
+}
+
+.hiddenBox {
+    background: white;
+    border: 0px solid white;
+}
+
+.allBoxesHide{
+    background: white;
+    border: 0px solid white;
 }

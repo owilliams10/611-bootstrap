@@ -12,15 +12,13 @@
     <!-- Link to my style -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Link to jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   
 
-    <!-- Link to my script -->
-    <script src="script.js"></script>
+    
 </head>
 <body>
 
-    <p>Bootstrap and JS/jQuery Worksheet</p>
+    <div class="pageTitle"><p>Bootstrap and JS/jQuery Worksheet</p></div>
 
     <h1>Week 3 Class Work</h1>
 
@@ -28,16 +26,16 @@
 
     <div class="container">
         <div class="row topboxes">
-            <div class="col box1"></div>
-            <div class="col box2"></div>
-            <div class="col box3"></div>
+            <div class="col box1 changeAllGrpMmbr hideAllGrpMmber showAllGrpMmber"></div>
+            <div class="col box2 changeAllGrpMmbr hideAllGrpMmber showAllGrpMmber"></div>
+            <div class="col box3 changeAllGrpMmbr hideAllGrpMmber showAllGrpMmber"></div>
         </div>
     </div>
 
     <h3>Change Buttons</h3>
 
     <div class="container">
-        <div class="row">
+        <div class="row changeButtons">
             <div class="col noleftpadding"><span class="changebtn changebtn1">Change Box 1</span></div>
             <div class="col"><span class="changebtn changebtn2">Change Box 2</span></div>
             <div class="col"><span class="changebtn changebtn3">Change Box 3</span></div>
@@ -45,7 +43,7 @@
         </div>
     </div>
 
-    <p>Hide Buttons</p>
+    <p class="hideButtonHeading">Hide Buttons</p>
 
     <div class="container">
         <div class="row">
@@ -57,14 +55,21 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row resetShowAllButtons">
             <div class="col noleftpadding"><span class="changebtn resetcolors">Reset Colors</span></div>
             <div class="col blankcol"></div>
             <div class="col blankcol"></div>
             <div class="col norightpadding"><span class="changebtn showall">Show All</span></div>
         </div>
     </div>
-
-    
+ 
+ 
+ 
+<!-- Link to jQuery -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- Link to my script -->
+ <script src="script.js"></script> 
+ 
+ 
 </body>
 </html>
