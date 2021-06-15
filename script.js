@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
     $( ".changebtn2" ).click(function() {
         console.log("change btn 2 clicked");
-        $(".box2").addclass("newbox2");
+        $(".box2").addClass("newbox2");
     });
 
     $( ".changebtn3" ).click(function() {
